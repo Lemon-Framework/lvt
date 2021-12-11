@@ -1,0 +1,19 @@
+#!/usr/bin/php
+<?php
+
+// Including whole Kernel
+require "vendor/autoload.php";
+use Lemon\Kernel\Lemonade\Kernel;
+
+// Making Kernel instance
+$kernel = new Kernel($argv, __DIR__);
+
+// Executing whole system
+$kernel->execute();
+
+/*
+    When life gives you lemons you make lemonade
+    ~ Built with <3 by TEN MAJKL
+
+ */
+

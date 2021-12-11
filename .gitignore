@@ -1,0 +1,11 @@
+/node_modules
+/vednor
+
+.env
+
+/.idea
+/.vscode
+**/*.sw?
+
+public/*.css
+public/*.js
