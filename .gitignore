@@ -7,5 +7,5 @@
 /.vscode
 **/*.sw?
 
-public/*.css
-public/*.js
+public/**/*.css
+public/**/*.js
